@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieAdding"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newm"
+        android:text="Add new Movie: "
+        android:textSize="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:id="@+id/newmovei"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textColor="#0FF6EA"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imbnumbers"
+        android:layout_below="@+id/movieAdding"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nurl"
+            android:text="imdb :"
+            android:layout_below="@id/newm"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newIMB"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textColor="#EE5AE1"/>
+
+    </LinearLayout>
+</RelativeLayout>
